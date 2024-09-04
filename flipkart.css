@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6f7;
+}
+
+.header {
+    background-color: #f6f8fa;
+    padding: 10px 0;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar input {
+    width: 550px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.account-section {
+    display: flex;
+    gap: 25px;
+    color: #131a22;
+}
+
+.account-section span {
+    cursor: pointer;
+}
+
+.categories {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.categories a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.banner-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.banner {
+    display: none;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 25px;
+}
+
+.controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Top-and-Bottom Layout */
+.side-by-side-sections {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.best-of-electronics,
+.beauty-food-toys {
+    margin-bottom: 50px;
+}
+
+.product-slider {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.product {
+    text-align: center;
+    width: 15%;
+    padding: 0 12px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.product span {
+    font-weight: bold;
+    color: green;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.slider-controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 50px 0;
+    font-size: 15px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    background-color: #131a22;
+    padding: 20px 0;
+    text-align: center;
+}
